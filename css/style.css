@@ -78,6 +78,7 @@
     height: 480px;
     background-size: cover;
     background: url(../img/haikei.jpg) center center;
+    background-repeat: no-repeat;
   }
   
   #header .logo {
@@ -237,7 +238,7 @@
   }
   
   #works .card {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   
   #works .card-image {
@@ -317,11 +318,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-  
-  #skill .card:first-child {
-    flex-basis: 100%;
-  }
-  
+
   #skill .skill-icon {
     flex-basis: 75px;
   }
@@ -392,6 +389,69 @@
   
   #skill .rate5:after {
     width: 100px;
+  }
+
+    /*--------------------------------
+   CERTIFICATION
+  ---------------------------------*/
+  
+  #certification .card-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  #certification .card {
+    flex-basis: 46%;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  #certification .skill-icon {
+    flex-basis: 75px;
+  }
+  
+  #certification .skill-icon img {
+    width: 75px;
+  }
+  
+  #certification .skill-desc {
+    flex-basis: calc(100% - 75px - 30px);
+    text-align: center;
+  }
+  
+  #certification .skill-desc-title {
+    margin-bottom: 3px;
+    font-size:26px;
+    padding: 24px;
+    font-weight: bold;
+  }
+  
+  #certification .skill-desc-title i{
+    margin-right: 12px;
+  }
+  
+  #certification .rate {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    font-size: 20px;
   }
   
   /*--------------------------------
@@ -484,10 +544,11 @@
       line-height: 1.7;
     }
     #header {
-      height: 200px;
+      height: 280px;
+      background-size: contain;
     }
     #header .logo-title {
-      font-size: 56px;
+      font-size: 45px;
     }
     #header .logo-name {
       top: 0;
@@ -495,10 +556,10 @@
       font-size: 25px;
     }
     #header .logo-desc {
-      font-size: 11px;
+      font-size: 15px;
     }
-    #gnav li {
-      font-size: 14px;
+    #gnav ul li {
+      font-size: 7px;
       padding: 0 10px;
     }
     #gnav li a:hover {
@@ -515,6 +576,17 @@
     }
     .section .section-title {
       font-size: 36px;
+    }
+    .two-column-wrapper {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .two-column-image img{
+    }
+    .two-column-desc {
+      width: 100%;
     }
     #latestworks .two-column-wrapper {
       width: 100%;
@@ -557,7 +629,6 @@
     #about .two-column-desc {
      width: 100%;
    }
-  
     #skill .card-wrapper {
       width: 100%;
     }
@@ -595,6 +666,21 @@
     }
     #skill .rate5:after {
       width: 75px;
+    }
+    #certification .card-wrapper {
+      width: 100%;
+    }
+    #certification .card {
+      flex-basis: 100%;
+    }
+    #certification .skill-icon {
+      flex-basis: 45px;
+    }
+    #certification .skill-icon img {
+      width: 45px;
+    }
+    #certification .skill-desc {
+      flex-basis: calc(100% - 45px - 10px);
     }
     #contact .contact-list ul {
       width: 100%;
