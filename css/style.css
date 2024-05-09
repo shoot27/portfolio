@@ -237,7 +237,7 @@
   }
   
   #works .card {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
   
   #works .card-image {
@@ -530,8 +530,15 @@
       width: 100%;
     }
     #works .card {
-      width: 48%;
+      width: 100%;
     }
+
+    #works .card-image {
+      display: block;
+      margin-bottom: 8px;
+      height: 400px;
+    }
+
     #works .card-caption-title {
       font-size: 12px;
     }
@@ -552,7 +559,7 @@
    }
   
     #skill .card-wrapper {
-      width: 100%;
+      width: 80%;
     }
     #skill .card {
       flex-basis: 100%;
