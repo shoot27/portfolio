@@ -77,7 +77,7 @@
     align-items: center;
     height: 480px;
     background-size: cover;
-    background: url(../img/haikei1.jpg) center center;
+    background: url(../img/haikei.jpg) center center;
   }
   
   #header .logo {
@@ -264,7 +264,7 @@
   }
   
   #works .card-wrapper {
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
