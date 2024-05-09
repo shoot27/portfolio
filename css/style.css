@@ -548,7 +548,7 @@
       background-size: contain;
     }
     #header .logo-title {
-      font-size: 45px;
+      font-size: 40px;
     }
     #header .logo-name {
       top: 0;
@@ -559,8 +559,8 @@
       font-size: 15px;
     }
     #gnav ul li {
-      font-size: 7px;
-      padding: 0 10px;
+      font-size: 11px;
+      padding: 5px 10px;
     }
     #gnav li a:hover {
       opacity: 1;
@@ -681,6 +681,9 @@
     }
     #certification .skill-desc {
       flex-basis: calc(100% - 45px - 10px);
+    }
+    #certification .table {
+      font-size:12px;
     }
     #contact .contact-list ul {
       width: 100%;
