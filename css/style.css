@@ -536,7 +536,7 @@
     #works .card-image {
       display: block;
       margin-bottom: 8px;
-      height: 400px;
+      height: 230px;
     }
 
     #works .card-caption-title {
@@ -559,7 +559,7 @@
    }
   
     #skill .card-wrapper {
-      width: 80%;
+      width: 100%;
     }
     #skill .card {
       flex-basis: 100%;
