@@ -206,7 +206,7 @@
   }
   
   .two-column-image {
-    width: 33%;
+    width: 30%;
   }
   
   .two-column-image img {
@@ -445,7 +445,23 @@
   #certification .skill-desc-title i{
     margin-right: 12px;
   }
-  
+
+  #certification .skill-desc-logo {
+    margin-bottom: 3px;
+    font-size:26px;
+    padding: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #certification .skill-desc-logo img {
+    height: 35px;
+    width: 35px;
+    margin-right: 12px;
+  }
+
   #certification .rate {
     position: relative;
     display: inline-block;
@@ -566,10 +582,10 @@
       opacity: 1;
     }
     #contents {
-      padding: 40px 0;
+      padding: 10px 0;
     }
     .section .inner {
-      padding: 30px 15px;
+      padding: 15px 15px;
     }
     .section .section-title-block {
       margin-bottom: 10px;
@@ -583,12 +599,11 @@
       justify-content: center;
       align-items: center;
     }
-    .two-column-image img{
-    }
+
     .two-column-desc {
       width: 100%;
     }
-    #latestworks .two-column-wrapper {
+    .two-column-wrapper {
       width: 100%;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -597,10 +612,11 @@
       width: 90%;
       margin: 0 auto 20px;
     }
-  
-    #latestworks .two-column-desc {
-      width: 100%;
+
+    .two-column-desc .text{
+      font-size: 15px;
     }
+
     #works .card {
       width: 100%;
     }
